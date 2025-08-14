@@ -14,7 +14,7 @@ app = FastAPI(title="Granite Joinery Quote API", version="1.0.0")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://your-domain.com"],  # Add your frontend domain
+    allow_origins=["http://localhost:3000", "https://granitecarpentry.co.za/"],  # Add your frontend domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
